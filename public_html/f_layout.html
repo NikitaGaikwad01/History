@@ -2,17 +2,120 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 30%;
+            padding: 10px;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .topnav a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .topnav .search-container {
+            float: right;
+        }
+
+        .topnav input[type=text] {
+            padding: 6px;
+            margin-top: 8px;
+            font-size: 17px;
+            border: none;
+        }
+        .topnav .search-container button {
+            float: right;
+            padding: 6px;
+            margin-top: 8px;
+            margin-right: 16px;
+            background: #ddd;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .topnav .search-container button:hover {
+            background: #ccc;
+        }
+    </style>
     <title>F Layout</title>
 </head>
-<body>
-<p>
-<h1>TimeLine</h1>
-<img style="width: 146px; height: 500px;" alt="timeline" src="i1.jpg"><br>
-<div class="column">
-    <div class="column">
-        <p>Hello</p>
+<body style="color: rgb(0, 0, 0);" alink="#ee0000" link="#0000ee" vlink="#551a8b">
+<div style= "background-color: rgb(255,255,204);">
+    <h1 style="background-color: rgb(255, 255, 204);">Timeline&nbsp;&nbsp;
+        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; Help<br>
+    </h1>
+    <div class="row">
+        <div class="column"><"style="text-align: left;=""><img style="width: 294px; height: 813px;" alt="timeline" src="../../../NJIT/HistoryofInternet/i1.jpg">&nbsp; <br>
+            </style="text-align:></div>
+        <div style="text-align: left;" class="column">
+            <p style="text-align: justify; font-weight: bold;">1960s</p>
+            <p style="text-align: justify; background-color: rgb(255, 255, 204);">In
+                1962, MIT computer scientist J.C.R.
+                Licklider comes up with the idea for a global computer network. He
+                shares his idea with colleagues at the U.S. Department of Defense
+                Advanced Research Projects Agency. ARPANET, an ARPA-funded computer
+                network, became a reality in 1969. <br>
+            </p>
+            <hr style="width: 100%; height: 2px;">
+            <p style="text-align: justify; font-weight: bold;">1970s</p>
+            <p style="text-align: justify;">In 1973, Robert Kahn and Vinton Cerf
+                developed a protocol for linking multiple networks together. This later
+                becomes the Transmission Control Protocol/Internet Protocol (TCP/IP)
+                Tom Truscott and Steve Bellovin develop a Unix-based system for
+                transferring data over phone lines via a dial-up connection.</p>
+            <hr style="width: 100%; height: 2px;">
+            <p style="text-align: justify; font-weight: bold;">1980s</p>
+            <p style="text-align: justify;">Dave Farber of the University of
+                Delaware reveals a project to build an inexpensive network using
+                dial-up phone lines. In 1985, the first domain was registered:
+                symbolics.com, a domain belonging to a computer manufacturer. Paul
+                Mockapetris, Jon Postel and Craig Partridge create the Domain Name
+                system.&nbsp;</p>
+            <hr style="width: 100%; height: 2px;">
+            <p style="text-align: justify;"><span style="font-weight: bold;">1990s</span><br>
+            </p>
+            <p style="text-align: justify;">In 1990, ARPANET was decommissioned.
+                Tim Berners-Lee and his colleagues at CERN develop hypertext markup
+                language. In 1995, Microsoft launched Windows 95; Amazon, Yahoo and
+                eBay all launched. In 1996, Congress passed the Communications Decency
+                Act. Google was founded in 1998.&nbsp;</p>
+            <hr style="width: 100%; height: 2px;">
+            <p style="text-align: justify; font-weight: bold;">2000s</p>
+            <p style="text-align: justify;">In 2000, the Dow Jones saw its biggest
+                one-day drop in history up to that point. By 2001, most publicly traded
+                dotcom companies were gone. This decade also sees the rise and
+                proliferation of Wi-Fi as well as mobile internet devices like
+                smartphones. In 2005, the first-ever internet cat video was uploaded to
+                the internet.
+            </p>
+        </div>
+        <div class="column"><"style="text-align: left;=""><img style="width: 325px; height: 264px;" alt="timelin" src="../../../NJIT/HistoryofInternet/i2.jpg">&nbsp; <img style="width: 318px; height: 214px;" alt="time" src="../../../NJIT/HistoryofInternet/i3.jpg"><br>
+            </style="text-align:></div>
+    </div>
+    <div class="topnav"> <a class="active" href="#home">Home</a> <a href="#about">About</a> <a href="#contact">Contact</a> <input placeholder="Search.." type="text"> <button type="submit">Submit</button>
     </div>
 </div>
-</p>
-</body>
-</html>
+
+</body></html>
