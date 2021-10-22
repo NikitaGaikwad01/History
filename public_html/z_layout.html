@@ -2,9 +2,133 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <style>
+        {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 70%;
+            padding: 10px;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: skyblue;
+        }
+
+        .active {
+            background-color: skyblue;
+        }
+        h1 {text-align: center;}
+        h2 {text-align: center;}
+        img {align: center;}
+    </style>
     <title>Z Layout</title>
 </head>
-<body>
-
+<body style="background-color: rgb(255, 255, 204); color: rgb(0, 0, 0);"
+      alink="#ee0000" link="#0000ee" vlink="#551a8b">
+<ul style="font-family: Helvetica,Arial,sans-serif;">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#news">Timeline</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li style="float: right;"><a class="active" href="#about">About</a></li>
+</ul>
+<br style="font-family: Helvetica,Arial,sans-serif;">
+<br style="font-family: Helvetica,Arial,sans-serif;">
+<div style="text-align: center;"><img
+        style="width: 1060px; height: 521px; font-family: Helvetica,Arial,sans-serif;"
+        alt="internet" src="file:///C:/NJIT/HistoryofInternet/bg.jpg"><br
+        style="font-family: Helvetica,Arial,sans-serif;">
+</div>
+<br style="font-family: Helvetica,Arial,sans-serif;">
+<img style="font-family: Helvetica,Arial,sans-serif;" src="bg.jpg"
+     alt="Internet">
+<h1 style="font-family: Helvetica,Arial,sans-serif;">True Story of
+    Internet</h1>
+<div style="font-family: Helvetica,Arial,sans-serif;" class="row">
+    <div class="column">
+        <p style="text-align: left;">The concept of data communication –
+            transmitting data through an
+            electromagnetic medium such as radio or an electric wire – pre-dates
+            the introduction of the first computers. Semaphore lines, telegraph
+            systems and telex machines can be considered early precursors of this
+            kind of communication. Information theory, as enunciated by Claude
+            Shannon, in the 1940s, provided a firm theoretical underpinning to
+            understand the trade-offs between signal-to-noise ratio, bandwidth, and
+            error-free transmission in the presence of noise.
+            The precursor to the Internet was jump started in the early days of
+            computing history. In 1969, ARPA-funded researchers developed many of
+            the protocols used today. The backbone for the ubiquitous stream of
+            emails, media, Facebook postings and tweets that are now shared online
+            every day.
+        </p>
+    </div>
+    <div style="text-align: right;" class="row"><img
+            style="width: 272px; height: 178px;" alt="timeline"
+            src="../../../NJIT/HistoryofInternet/internet.jpg">&nbsp;
+        <br>
+    </div>
+</div>
+<br style="font-family: Helvetica,Arial,sans-serif;">
+<h2 style="font-family: Helvetica,Arial,sans-serif;">History </h2>
+<div style="text-align: left;"><small>
+</small></div>
+<h2 style="font-family: Helvetica,Arial,sans-serif;">
+    <p style="text-align: left;"><span style="font-weight: normal;">Vinton
+Cerf and Bob Kahn are
+credited with inventing the Internet
+protocols we use today. The World Wide Web is the brain behind what we
+think of as the Internet. It is an intricate set of protocols and rules
+that someone had to develop before we could access it.
+Long-distance networking between computers was first accomplished in
+1969. Researchers at UCLA and Stanford created the first two-node
+network. The experiment was the first test of "packet switching," a
+method of transferring data between two computers. Packet switching
+separates information into smaller "packets" of data.
+Cerf and Kahn's TCP/IP provided the backbone for an efficient web of
+interconnected networks. The TCP part of the protocol is in charge of
+packing the data before it moves across the network. The IP component
+acts as the trip coordinator and maps the movement of information.
+The history of the Internet has its origin in efforts to build and
+interconnect computer networks that arose from research and development
+in the United States. Computer science was an emerging discipline in
+the late 1950s that began to consider time-sharing between computer
+users. ARPANET adopted the packet switching technology proposed by
+Davies and Baran underpinned by mathematical work in the early 1970s.
+Since the mid-1990s, the Internet has had a revolutionary impact on
+culture, commerce, and technology. Research at CERN in Switzerland by
+British computer scientist Tim Berners-Lee resulted in the World Wide
+Web. Increasing amounts of data are transmitted at higher and higher
+speeds over fiber-optic networks. The Internet's takeover of the global
+communication landscape was rapid in historical terms.</span><small>
+    </small></p>
+</h2>
 </body>
 </html>
