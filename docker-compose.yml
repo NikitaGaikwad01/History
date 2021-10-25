@@ -3,6 +3,6 @@ services:
   apache:
     build: .
     ports:
-      - "88:88"
+      - "8080:80"
     volumes:
       - ./public_html/ /usr/local/apache2/htdocs/
